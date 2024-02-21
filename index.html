@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca - Comidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JOGO DA "FORCA"</h1>
+    <h3>Nesse jogo, todas as palavras são de <span id="tipo">TIPO</span> e vão possuir (4 OU 5?): <input type="number" id="tamanho"></h3>
+    <button onclick="Sortear()">Sortear</button>
+    <h3 class="letra">Digite uma palavra que começe com a letra <span id="inicial">LETRA</span> (Obs: digitar em minuscula):
+        <input type="text" id="resposta">
+    </h3>
+    <h2>RESULTADO: <span id="resultado">RESULTADO</span></h2>
+    <button onclick="Confirmar()">Confirmar</button>
+    <script src="script.js"></script>
+</body>
+</html>
